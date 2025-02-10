@@ -1,3 +1,49 @@
-.ejemplo {
-  background-color: skyblue;
+*{ /* Para configuraciones por defecto */
+  background-color: brown;
+  color: white;
+}
+#dos{
+  background-color: burlywood;
+}
+/* modifica y selecciona los atributos */
+[href]{
+  text-decoration: none;
+  size: 50px;
+  color: black;
+}
+/* Identifica lo primero */
+[href^="https"]{
+  color: yellow;
+}
+/* Identifica lo ultimo */
+[href$="org"]{ 
+  color: blue;
+}
+
+[href="http://sofiaplus.com"]
+{
+  color: red;
+}
+.fondo{
+  font-family: sans-serif;
+}
+/* body { */
+  /* background-color: aqua; */
+/* } */
+input{
+  height: 60px;
+  width: 100%;
+}
+
+[type="text"]{
+  background-color:rgb(178, 61, 178);
+}
+
+
+[type="email"]{
+  background-color: rgb(25, 164, 25);
+}
+
+[type="number"]{
+  background-color:rgb(40, 40, 227);
 }
